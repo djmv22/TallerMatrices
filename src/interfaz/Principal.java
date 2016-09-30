@@ -133,6 +133,7 @@ public class Principal extends javax.swing.JFrame {
 
             }
         ));
+        tblTablaInicial.setEnabled(false);
         jScrollPane2.setViewportView(tblTablaInicial);
 
         jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 420, 290));
@@ -145,6 +146,7 @@ public class Principal extends javax.swing.JFrame {
 
             }
         ));
+        tblTablaResultado.setEnabled(false);
         jScrollPane1.setViewportView(tblTablaResultado);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 180, 420, 290));
